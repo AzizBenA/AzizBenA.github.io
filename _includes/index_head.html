@@ -22,7 +22,18 @@
   <!-- Custom styles for this template -->
   <!-- <link href="{{"static/css/pygments.css"| prepend: site.baseurl }}" rel="stylesheet"> -->
   <link href="{{"static/css/style.min.css"| prepend: site.baseurl }}" rel="stylesheet">
+  <style>
+    .landing-page .header-back,
+    .landing-page .carousel,
+    .landing-page .carousel .item {
+      height: 300px;
+    }
 
+    .landing-page .header-back {
+      background-size: cover !important;
+      background-position: center center !important;
+    }
+  </style>
   <!-- Third-party scripts -->
   <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
   <script src="{{"bower_components/jquery/dist/jquery.min.js"| prepend: site.baseurl }}"></script>
