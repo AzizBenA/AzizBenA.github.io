@@ -1,24 +1,24 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "M. Rastgoo"
-description: "Personal website of Mojdeh Rastgoo"
-keywords: "mrastgoo,mojdeh,rastgoo,medical,imaging,vision,melanoma,polarized,multispectral"
+title: "Aziz B.Ammar"
+description: "Personal website of Aziz B.Ammar"
+keywords: "aziz,benammar,systembiology,genomescalemodels,bioinformatics,computationalbiology,metagenomics"
 baseurl: "/"
-url: "http://mrastgoo.github.io"
+url: "http://azizbena.github.io"
 # url: "http://127.0.0.1:4000"
 
 # author
 author:
-  name: 'Rastgoo'
-  first_name: 'Mojdeh'
-  last_name: 'Rastgoo'
-  email: 'mojdeh.rastgoo@gmail.com'
-  linkedin_username: 'https://www.linkedin.com/in/mojdeh-rastgoo-6462753a/'
+  name: 'Aziz B. Ammar'
+  first_name: 'Aziz'
+  last_name: 'B. Ammar'
+  email: 'aziz.benammar@gmail.com'
+  linkedin_username: 'https://www.linkedin.com/in/aziz-benammar-6462753a/'
   scholar_username: 'https://scholar.google.fr/citations?user=lPIo6ucAAAAJ&hl=en&oi=ao'
-  github_username: 'mrastgoo'
-  head_img: 'static/img/landing/picture.jpeg'
-  desc: "Currently I am a data scientist at Saint-Gobain Research Paris. I am passionate about data analysis, machine learning in general and I strive for open source and data." 
+  github_username: 'azizbena'
+  head_img: 'static/img/landing/ayzou.jpg'
+  desc: "I am a computational biologist with a strong background in data science and bioinformatics. Being passionate about biology and coding, this shaped my research interests where I used mathematical models to simulate biological systems." 
   
 
 # sections
