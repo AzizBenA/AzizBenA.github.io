@@ -1,0 +1,124 @@
+:root {
+  --theme-primary: #247a63;
+  --theme-primary-dark: #195746;
+  --theme-accent: #c7794a;
+  --theme-surface: #f5f3ed;
+  --theme-surface-light: #fbfaf6;
+  --theme-text: #3f4945;
+  --theme-muted: #68736e;
+  --theme-dark: #172925;
+}
+
+body,
+body.landing-page {
+  color: var(--theme-text);
+  background-color: var(--theme-surface-light);
+}
+
+a,
+.landing-page span.navy,
+.landing-page a.navy-link,
+.landing-page .features small,
+.landing-page .features-icon,
+.landing-page .pricing-plan .pricing-price span,
+.landing-page .features .big-icon,
+.vertical-date small,
+.text-navy {
+  color: var(--theme-primary);
+}
+
+.landing-page .features .big-icon {
+  color: var(--theme-primary) !important;
+}
+
+a:hover,
+a:focus,
+.landing-page a.navy-link:hover,
+.landing-page .navbar-default .navbar-nav > li > a:hover,
+.landing-page .navbar-default .navbar-nav > li > a:focus,
+.landing-page .navbar-scroll.navbar-default .nav li a:hover {
+  color: var(--theme-accent);
+}
+
+.landing-page section p {
+  color: var(--theme-muted);
+}
+
+.landing-page .gray-section,
+.gray-bg {
+  background-color: var(--theme-surface);
+}
+
+.landing-page .navbar-default.navbar-scroll {
+  background-color: var(--theme-surface-light);
+  border-color: var(--theme-surface-light);
+}
+
+.landing-page .navy-line {
+  border-bottom-color: var(--theme-accent);
+}
+
+.landing-page .navbar-default .navbar-nav > .active > a,
+.landing-page .navbar-default .navbar-nav > .active > a:hover {
+  border-top-color: var(--theme-accent);
+}
+
+.landing-page .navbar-default .navbar-brand,
+.landing-page .navbar-default .navbar-brand:hover,
+.landing-page .navbar-default .navbar-brand:focus,
+.landing-page .navy-section,
+.landing-page .pricing-plan li.pricing-title,
+.landing-page .testimonials,
+.navy-bg,
+.progress-bar,
+.panel-primary > .panel-heading {
+  background-color: var(--theme-primary);
+}
+
+.landing-page .social-icon a {
+  background-color: var(--theme-primary);
+}
+
+.landing-page .social-icon a:hover {
+  background-color: var(--theme-accent);
+}
+
+.btn-primary,
+.landing-page .btn-primary {
+  background-color: var(--theme-primary);
+  border-color: var(--theme-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.landing-page .btn-primary:hover,
+.landing-page .btn-primary:focus,
+.landing-page .btn-primary:active,
+.landing-page .btn-primary.active,
+.landing-page .open .dropdown-toggle.btn-primary {
+  background-color: var(--theme-primary-dark);
+  border-color: var(--theme-primary-dark);
+}
+
+.panel-primary {
+  border-color: var(--theme-primary);
+}
+
+.panel-primary > .panel-heading {
+  border-color: var(--theme-primary);
+}
+
+#vertical-timeline.light-timeline::before {
+  background-color: #dce5df;
+}
+
+.vertical-timeline-icon {
+  border-color: #dce5df;
+}
+
+.landing-page .carousel .item {
+  background-color: var(--theme-dark);
+}
