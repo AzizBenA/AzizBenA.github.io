@@ -1,19 +1,23 @@
 - name: 'afaa_gem'
   i18n: 'afaa_gem'
   url: 'https://github.com/AzizBenA/afaa_gem'
+  img: 'static/img/projects/afaa-gem.png'
   desc: 'Afaa is a framework based on cobrapy for enhanced model manipulation and analysis.'
 
 - name: 'AutoQIIME2'
   i18n: 'AutoQIIME2'
   url: 'https://github.com/AzizBenA/Automated-Qiime-2-workflow'
+  img: 'static/img/projects/autoqiime2.png'
   desc: 'Automation of Qiime 2 taxonomic analysis with the use of Snakemake.'
 
 - name: 'iABA974 sof1 gem'
   i18n: 'iABA974 sof1 gem'
   url: 'https://github.com/AzizBenA/SoF1-GEM'
+  img: 'static/img/projects/sof1-gem.png'
   desc: 'Genome scale metabolic model of Xanthobacter sp. SoF1.'
 
 - name: 'iJN1463_plastic_producer'
   i18n: 'iJN1463_plastic_producer'
   url: 'https://github.com/AzizBenA/iJN1463_plastic_producer'
+  img: 'static/img/projects/plastic-producer.png'
   desc: 'iJN1463 model updated with different polymers production.'
