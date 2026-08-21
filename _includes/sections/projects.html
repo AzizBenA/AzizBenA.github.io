@@ -7,12 +7,13 @@
     </div>
   <div class="row">
     <div class="col-lg-12 text-center">
-      <p><a href="https://github.com/mrastgoo"><i class="fa fa-github fa-3x"></i></a></p>
-      <p><a href="https://github.com/mrastgoo">GitHub</i></a></p>
+      <p><a href="https://github.com/{{ site.author.github_username }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-3x"></i></a></p>
+      <p><a href="https://github.com/{{ site.author.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a></p>
     </div>
   </div>
     <div class="row">
         {% for project in site.data.projects %}
+            {% assign github_path = project.url | remove: 'https://github.com' %}
             {% assign loopindex = forloop.index | modulo: 2 %}
             {% if forloop.last %}
                 {% if forloop.last == forloop.first %}
@@ -25,14 +26,14 @@
             {% endif %}
               <div class="team-member">
                   <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                  <h4><a href="{{ project.url | prepend: 'https://github.com' }}" target="blank"><span class="navy">{{ project.name }}</a></span></h4>
+                  <h4><a href="{{ project.url }}" target="_blank" rel="noopener noreferrer"><span class="navy">{{ project.name }}</span></a></h4>
                   <p><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
                   <ul class="list-inline">
                       <li>
-                          <a class="github-button" href="{{ project.url | prepend: 'https://github.com'}}" data-icon="octicon-star" data-count-href="{{ project.url | append: '/stargazers' }}" data-count-api="{{ project.url | prepend: '/repos' | append: '#stargazers_count' }}" data-count-aria-label="# stargazers on GitHub" aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
+                          <a class="github-button" href="{{ project.url }}" data-icon="octicon-star" data-count-href="{{ github_path | append: '/stargazers' }}" data-count-api="{{ github_path | prepend: '/repos' | append: '#stargazers_count' }}" data-count-aria-label="# stargazers on GitHub" aria-label="Star {{ project.name }} on GitHub">Star</a>
                       </li>
                       <li>
-                          <a class="github-button" href="{{ project.url | prepend: 'https://github.com'}}" data-icon="octicon-fork" data-count-href="{{ project.url | append: '/network/members' }}" data-count-api="{{ project.url | prepend: '/repos' | append: '#forks_count' }}" data-count-aria-label="# forks on GitHub" aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
+                          <a class="github-button" href="{{ project.url }}" data-icon="octicon-fork" data-count-href="{{ github_path | append: '/network/members' }}" data-count-api="{{ github_path | prepend: '/repos' | append: '#forks_count' }}" data-count-aria-label="# forks on GitHub" aria-label="Fork {{ project.name }} on GitHub">Fork</a>
                       </li>
                   </ul>
               </div>
